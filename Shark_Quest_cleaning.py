@@ -134,3 +134,7 @@ attack_counts = unprovoked_attacks.groupby(["country", "state"]).size().reset_in
 attack_counts= attack_counts.sort_values(by= "count", ascending= False).head(10)
 top_10_attacks_state= attack_counts.head(10)
 
+north_carolina_sharks = to_use[to_use['state'] == "North Carolina"]
+state_shark_counts = north_carolina_sharks['species'].value_counts().reset_index()
+state_shark_counts.columns = ['Species', 'Attack_Count']
+top_state_shark = state_shark_counts.head(10)
