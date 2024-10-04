@@ -15,7 +15,7 @@ Our objective was to creatively and strategically approach data towards data cle
 
 2. **The dataset could help us** understand the nature of shark attacks, both provoked and unprovoked, identify hostile and non-hostile species, and assess endangered shark populations based on secondary research. This, in turn, could help determine significant issues and suitable entry points towards developing an eco-tourism business model
 
-## Data Analysis
+## Data Analysis 📊🔍
 **Data Cleaning and Preparation**
 Given the project's time constraints, our goal was to make the expansive and incomplete dataset manageable while aligning with our hypotheses. 
 
