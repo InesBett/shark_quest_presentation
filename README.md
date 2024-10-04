@@ -1,4 +1,5 @@
-    <img width="365" alt="image" src="https://github.com/user-attachments/assets/9eaa343b-7dba-461c-b55b-281bedcf4ab6">
+<img width="365" alt="Captura de ecrã 2024-10-04 173611" src="https://github.com/user-attachments/assets/968de449-28c3-40d2-b691-fd66fed1a05b">
+
 
 # Shark_Quest: A roadmap for shark ecotourism 🦈
 
@@ -24,8 +25,10 @@ The following adjustments were made to streamline the data:
 *Standardization of Columns*: All columns were standardised using functions like lower(), strip(), and replace(), while duplicates and inconsistencies were addressed.
 
 **Data Cleaning**:
-*Year*: The column was standardised by converting it to integers, filling missing values (NaNs) with zeros, and removing gaps and float values. The data was sorted, and we chose to focus on the past 24 years, considering climate change and contemporary tourism trends
-.	
+
+*Year*: The column was standardised by converting it to integers, filling missing values (NaNs) with zeros, and removing gaps and float values. The data was sorted, and we chose to focus on the past 24 years, considering climate change and contemporary tourism trends.
+
+
 *Species*: This field was categorised, standardised, and unified based on species type.
 
 *Country and State*: We standardised different spellings and dropped rows with missing data, as precise region information was necessary.
