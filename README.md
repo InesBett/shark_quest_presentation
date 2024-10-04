@@ -1,4 +1,6 @@
-# Shark_Quest: A roadmap for shark ecotourism
+<img width="365" alt="image" src="https://github.com/user-attachments/assets/9eaa343b-7dba-461c-b55b-281bedcf4ab6">
+
+# Shark_Quest: A roadmap for shark ecotourism 🦈
 
 ## Introduction 
 This dataset from https://www.sharkattackfile.net/ was used to test data cleaning, analysis, problem-solving, and teamwork skills. Our team of four rotated research and coding tasks daily to develop and implement the following business model.
@@ -8,7 +10,8 @@ Our objective was to creatively and strategically approach data towards data cle
 
 ## Working Hypotheses
 1. **Eco-tourism** is a feasible business model that can significantly contribute to shark conservation and awareness. By generating revenue, eco-tourism helps fund marine protected areas, educate tourists and reduce misconceptions about sharks as "man-eaters" and minimise actions that provoke attacks.
-**The dataset could help us** understand the nature of shark attacks, both provoked and unprovoked, identify hostile and non-hostile species, and assess endangered shark populations based on secondary research. This, in turn, could help determine significant issues and suitable entry points towards developing an eco-tourism business model
+
+2. **The dataset could help us** understand the nature of shark attacks, both provoked and unprovoked, identify hostile and non-hostile species, and assess endangered shark populations based on secondary research. This, in turn, could help determine significant issues and suitable entry points towards developing an eco-tourism business model
 
 ## Data Analysis
 **Data Cleaning and Preparation**
