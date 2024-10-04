@@ -1,4 +1,4 @@
-<img width="365" alt="image" src="https://github.com/user-attachments/assets/9eaa343b-7dba-461c-b55b-281bedcf4ab6">
+    <img width="365" alt="image" src="https://github.com/user-attachments/assets/9eaa343b-7dba-461c-b55b-281bedcf4ab6">
 
 # Shark_Quest: A roadmap for shark ecotourism 🦈
 
@@ -18,20 +18,26 @@ Our objective was to creatively and strategically approach data towards data cle
 Given the project's time constraints, our goal was to make the expansive and incomplete dataset manageable while aligning with our hypotheses. 
 
 The following adjustments were made to streamline the data:
+
 *New Dataframe*: We analysed the columns of the original dataset and selected those most relevant to our task. Rather than cleaning and dropping columns, we created a new dataframe excluding ‘date’ ‘location’, ‘activity’, ‘age’, ‘sex’, ‘location’, ‘Unnamed:_11’, ‘Unnamed _21’, ‘Unnamed _22’,"Case number""Href_formula", "Pdf href", "Origi’al_order", "Source", "Case number”
+
 *Standardization of Columns*: All columns were standardised using functions like lower(), strip(), and replace(), while duplicates and inconsistencies were addressed.
 
 **Data Cleaning**:
-*Year*: The column was standardised by converting it to integers, filling missing values (NaNs) with zeros, and removing gaps and float values. The data was sorted, and we chose to focus on the past 24 years, considering climate change and contemporary tourism trends.	
+*Year*: The column was standardised by converting it to integers, filling missing values (NaNs) with zeros, and removing gaps and float values. The data was sorted, and we chose to focus on the past 24 years, considering climate change and contemporary tourism trends
+.	
 *Species*: This field was categorised, standardised, and unified based on species type.
+
 *Country and State*: We standardised different spellings and dropped rows with missing data, as precise region information was necessary.
+
 *Type*: We filtered out irrelevant categories such as "Invalid," "Watercraft," "Sea Disaster," "Under Investigation," "Unconfirmed," and retained only "Provoked" and "Unprovoked," as these offer insights into shark hostility. We also removed NaNs from this column.
+
 *Injury*: Further categorization was performed by identifying cases with lacerations, minor injuries, major injuries, fat, probably scavenging, and material damage
 
 ## Data Correlation
 After standardising the data, we examined the relationship between state, country, and injury type with the nature of shark attacks (provoked vs. unprovoked). This analysis offered key insights into both shark behaviour (unprovoked attacks) and human behaviour (provoked attacks), as well as the geographic distribution and severity of these interactions.
 
-Third Hypothesis: We needed to choose one type of attack as a benchmark for measuring variables such as activity area, injury type, and shark species. Although using provoked attacks could identify less aggressive species and areas of interest, it yielded sparse data on location and species, indicating low shark density or unreliable data. In contrast, unprovoked attacks provided better insights into high-density shark areas, diverse species, and allowed us to focus on vulnerable species for eco-tourism opportunities.
+**Third Hypothesis**: We needed to choose one type of attack as a benchmark for measuring variables such as activity area, injury type, and shark species. Although using provoked attacks could identify less aggressive species and areas of interest, it yielded sparse data on location and species, indicating low shark density or unreliable data. In contrast, unprovoked attacks provided better insights into high-density shark areas, diverse species, and allowed us to focus on vulnerable species for eco-tourism opportunities.
 
 ## Data-Driven Insights
 **Shark ecotourism**: Feasible in areas with frequent human-shark encounters, as injuries are generally non-threatening, as supported by secondary research. The data revealed that most shark species in these locations require conservation, aligning ecotourism with preservation efforts.
