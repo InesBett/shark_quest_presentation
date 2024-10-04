@@ -1,4 +1,5 @@
-<img width="365" alt="Captura de ecrã 2024-10-04 173611" src="https://github.com/user-attachments/assets/968de449-28c3-40d2-b691-fd66fed1a05b">
+![Imagem1shark](https://github.com/user-attachments/assets/31b581a1-f0ea-4ddb-b128-e0c8fe9addc9)
+
 
 
 # Shark_Quest: A roadmap for shark ecotourism 🦈
